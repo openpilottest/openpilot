@@ -50,7 +50,7 @@ def get_can_parser(CP):
   ]
 
   checks = [
-    ("BRAKE_MODULE", 40),
+    ("BRAKE_MODULE", 1),
     ("GAS_PEDAL", 33),
     ("WHEEL_SPEEDS", 80),
     ("STEER_ANGLE_SENSOR", 80),
@@ -105,7 +105,7 @@ class CarState(object):
 
   def update(self, cp, cp_cam):
     # copy can_valid
-    self.can_valid = True #cp.can_valid
+    self.can_valid = cp.can_valid
     self.cam_can_valid = cp_cam.can_valid
 
     # update prevs, update must run once per loop

@@ -1,0 +1,594 @@
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+installed apks {'com.android.frameworks.telresources': '/system/app/telresources/telresources.apk', 'com.qti.service.colorservice': '/system/vendor/app/colorservice/colorservice.apk', 'com.android.inputmethod.latin': '/system/app/LatinIME/LatinIME.apk', 'com.android.sharedstoragebackup': '/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk', 'com.qualcomm.qti.ims': '/system/vendor/app/imssettings/imssettings.apk', 'org.codeaurora.ims': '/system/priv-app/ims/ims.apk', 'com.android.externalstorage': '/system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk', 'com.android.providers.telephony': '/system/priv-app/TelephonyProvider/TelephonyProvider.apk', 'com.qualcomm.qti.telephonyservice': '/system/app/QtiTelephonyService/QtiTelephonyService.apk', 'com.android.pacprocessor': '/system/app/PacProcessor/PacProcessor.apk', 'com.qualcomm.embms': '/system/app/embms/embms.apk', 'com.android.smspush': '/system/app/WAPPushManager/WAPPushManager.apk', 'org.cyanogenmod.cmsettings': '/system/priv-app/CMSettingsProvider/CMSettingsProvider.apk', 'com.android.keychain': '/system/app/KeyChain/KeyChain.apk', 'com.android.captiveportallogin': '/system/app/CaptivePortalLogin/CaptivePortalLogin.apk', 'com.android.documentsui': '/system/app/DocumentsUI/DocumentsUI.apk', 'com.android.phone': '/system/priv-app/TeleService/TeleService.apk', 'android': '/system/framework/framework-res.apk', 'com.android.webview': '/system/app/webview/webview.apk', 'com.qualcomm.shutdownlistner': '/system/app/shutdownlistener/shutdownlistener.apk', 'com.qualcomm.timeservice': '/system/app/TimeService/TimeService.apk', 'com.android.inputdevices': '/system/priv-app/InputDevices/InputDevices.apk', 'com.android.bluetoothmidiservice': '/system/app/BluetoothMidiService/BluetoothMidiService.apk', 'com.android.development': '/system/app/Development/Development.apk', 'com.android.systemui': '/system/priv-app/SystemUI/SystemUI.apk', 'com.qualcomm.qcrilmsgtunnel': '/system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk', 'com.qualcomm.fastdormancy': '/system/app/fastdormancy/fastdormancy.apk', 'org.codeaurora.bluetooth': '/system/app/BluetoothExt/BluetoothExt.apk', 'ai.comma.plus.black': '/data/app/ai.comma.plus.black-1/base.apk', 'com.android.location.fused': '/system/priv-app/FusedLocation/FusedLocation.apk', 'com.android.statementservice': '/system/priv-app/StatementService/StatementService.apk', 'com.android.vpndialogs': '/system/priv-app/VpnDialogs/VpnDialogs.apk', 'com.qti.qualcomm.datastatusnotification': '/system/app/datastatusnotification/datastatusnotification.apk', 'com.android.backupconfirm': '/system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk', 'ai.comma.plus.frame': '/data/app/ai.comma.plus.frame-2/base.apk', 'cyanogenmod.platform': '/system/framework/org.cyanogenmod.platform-res.apk', 'com.android.settings': '/system/priv-app/Settings/Settings.apk', 'com.android.defcontainer': '/system/priv-app/DefaultContainerService/DefaultContainerService.apk', 'com.android.shell': '/system/priv-app/Shell/Shell.apk', 'com.android.proxyhandler': '/system/priv-app/ProxyHandler/ProxyHandler.apk', 'ai.comma.neos.setup': '/system/priv-app/NEOSSetup/NEOSSetup.apk', 'com.android.printspooler': '/system/app/PrintSpooler/PrintSpooler.apk', 'com.android.providers.settings': '/system/priv-app/SettingsProvider/SettingsProvider.apk', 'ai.comma.plus.offroad': '/data/app/ai.comma.plus.offroad-1/base.apk', 'com.android.packageinstaller': '/system/priv-app/PackageInstaller/PackageInstaller.apk', 'com.android.bluetooth': '/system/app/Bluetooth/Bluetooth.apk'}
+comparing version of ai.comma.plus.black  d4fca2b6ca2debc3adb4485f221fe81602a18126 vs d4fca2b6ca2debc3adb4485f221fe81602a18126
+comparing version of ai.comma.plus.frame  8bcafd8b8df7c32389df4c7b716dbf65a32139bc vs 8bcafd8b8df7c32389df4c7b716dbf65a32139bc
+comparing version of ai.comma.plus.offroad  fa09b5e5389cf62cc7b2a2cee17320027b77ee72 vs fa09b5e5389cf62cc7b2a2cee17320027b77ee72
+dongle id is fbd011384db5e669
+dirty is 1
+make: Nothing to be done for 'all'.
+building ('selfdrive/proclogd', ['./proclogd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/visiond', ['./visiond'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.thermald
+preimporting selfdrive.locationd.locationd_local
+preimporting selfdrive.controls.controlsd
+make: Nothing to be done for 'all'.
+make: Nothing to be done for 'all'.
+preimporting selfdrive.locationd.ubloxd
+building ('selfdrive/logcatd', ['./logcatd'])
+make: Nothing to be done for 'all'.
+preimporting selfdrive.mapd.mapd
+preimporting selfdrive.pandad
+preimporting selfdrive.logmessaged
+preimporting selfdrive.athena.athenad
+preimporting selfdrive.controls.plannerd
+make: Nothing to be done for 'all'.
+preimporting selfdrive.updated
+building ('selfdrive/sensord', ['./sensord'])
+sensord: this is a release
+building ('selfdrive/sensord', ['./gpsd'])
+sensord: this is a release
+preimporting selfdrive.loggerd.uploader
+building ('selfdrive/loggerd', ['./loggerd'])
+loggerd: this is a release
+preimporting selfdrive.tombstoned
+preimporting selfdrive.controls.radard
+preimporting selfdrive.locationd.calibrationd
+WARNING: linker: /system/comma/usr/local/lib/python2.7/site-packages/cv2.so: unused DT entry: type 0xf arg 0x7289b
+building ('selfdrive/boardd', ['./boardd'])
+make: Nothing to be done for 'all'.
+building ('selfdrive/ui', ['./start.sh'])
+make: Nothing to be done for 'all'.
+manager start
+{'environ': {'EXTERNAL_STORAGE': '/sdcard', 'SYSTEMSERVERCLASSPATH': '/system/framework/org.cyanogenmod.platform.jar:/system/framework/org.cyanogenmod.hardware.jar:/system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/wifi-service.jar', 'BOOTCLASSPATH': '/system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/apache-xml.jar:/system/framework/org.apache.http.legacy.boot.jar', 'PREFIX': '/usr', 'ANDROID_PROPERTY_WORKSPACE': '9,0', 'PATH': '/usr/local/bin:/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/sbin:/data/data/com.termux/files/usr/bin/applets:/bin:/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin', 'HOME': '/data/data/com.termux/files/home', 'ANDROID_STORAGE': '/storage', 'ANDROID_BOOTLOGO': '1', 'GIT_SSH_COMMAND': 'ssh -i /data/gitkey', 'SSH_CONNECTION': '192.168.4.60 55402 192.168.4.254 8022', 'TERM': 'xterm-256color', 'SHELL': '/system/comma/usr/bin/bash', 'ANDROID_ASSETS': '/system/app', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/data/data/com.termux/files/usr/lib', 'DONGLE_ID': 'fbd011384db5e669', 'EDITOR': 'vim', 'TERMINFO': '/system/etc/terminfo', 'PYTHONPATH': '/data/openpilot', 'BASEDIR': '/data/openpilot', 'ANDROID_DATA': '/data', 'TMUX': '/data/data/com.termux/files/tmp/tmux-0/default,1845,0', 'PASSIVE': '0', 'VALGRIND_LIB': '/usr/lib/valgrind', '_': './manager.py', 'LD_PRELOAD': 'libsigchain.so', 'ANDROID_CACHE': '/cache', 'OMP_NUM_THREADS': '1', 'OLDPWD': '/data/openpilot', 'ANDROID_ROOT': '/system', 'PWD': '/data/openpilot/selfdrive', 'ASEC_MOUNTPOINT': '/mnt/asec', 'LD_SHIM_LIBS': '/system/lib/hw/camera.msm8996.so|libcamera_shim.so', 'TMUX_PANE': '%2'}}
+loggerd.cc: bootlog to /data/media/0/realdata/2019-04-17--12-13-58--0
+starting python selfdrive.thermald
+starting python selfdrive.logmessaged
+starting process logcatd
+sh: can't create /sys/module/dwc3_msm/parameters/otg_switch: Permission denied
+starting python selfdrive.tombstoned
+starting python selfdrive.loggerd.uploader
+starting process ui
+uploader_fn
+starting process gpsd
+starting python selfdrive.updated
+starting python selfdrive.athena.athenad
+running pm enable ai.comma.plus.offroad
+connecting to wss://athena.comma.ai/ws/fbd011384db5e669
+make: Nothing to be done for 'all'.
+WARNING: linker: ./ui: unused DT entry: type 0x1d arg 0x222b
+diag diag_get_max_file_size size=200,max_file_size=209715200,min_file_size=167772160
+diag diag_get_max_file_size size=200,max_file_size=209715200,min_file_size=167772160
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=123 time=23.0 ms
+
+--- 8.8.8.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 23.082/23.082/23.082/0.000 ms
+compressing '/data/media/0/realdata/2019-04-17--12-13-35--0/rlog' to '/data/media/0/realdata/2019-04-17--12-13-35--0/rlog.bz2'
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+running pm enable ai.comma.plus.frame
+dinfo 1920x1080
+egl version 1.4
+egl w 1920 h 1080
+gl version OpenGL ES 3.2 V@145.0 (GIT@I0ac3940325)
+Result: Parcel(00000000    '....')
+compressing '/data/media/0/realdata/2019-04-17--12-13-58--0/bootlog' to '/data/media/0/realdata/2019-04-17--12-13-58--0/bootlog.bz2'
+running am start -n ai.comma.plus.frame/.MainActivity
+git fetch success: 
+{"event": "uploader_netcheck", "is_on_hotspot": false, "allow_cellular": true, "is_on_wifi": true, "ctx": {"version": "0.5.10-release", "dongle_id": "fbd011384db5e669", "dirty": true, "is_eon": true}}
+to upload ('2019-04-17--11-38-50--14/rlog.bz2', '/data/media/0/realdata/2019-04-17--11-38-50--14/rlog.bz2', 0)
+{"event": "upload", "sz": 3122004, "fn": "/data/media/0/realdata/2019-04-17--11-38-50--14/rlog.bz2", "key": "2019-04-17--11-38-50--14/rlog.bz2", "ctx": {"version": "0.5.10-release", "dongle_id": "fbd011384db5e669", "dirty": true, "is_eon": true}}
+checking '2019-04-17--11-38-50--14/rlog.bz2' with size 3122004
+uploading '/data/media/0/realdata/2019-04-17--11-38-50--14/rlog.bz2'
+starting python selfdrive.pandad
+opening device 44002c000651363038363036 0xddcc
+( logMonoTime = 4492912489895,
+  thermal = (
+    cpu0 = 406,
+    cpu1 = 406,
+    cpu2 = 422,
+    cpu3 = 419,
+    mem = 396,
+    gpu = 356,
+    bat = 26700,
+    freeSpace = 0.81188244,
+    batteryPercent = 43,
+    batteryStatus = "Charging",
+    fanSpeed = 0,
+    started = false,
+    usbOnline = true,
+    startedTs = 0,
+    thermalStatus = green,
+    batteryCurrent = -209000,
+    batteryVoltage = 3878000,
+    chargingError = false,
+    chargingDisabled = false ) )
+   running updated <Process(updated, started)>
+   running gpsd <Process(gpsd, started)>
+{"event": "STATUS_PACKET", "count": 0, "thermal": {"thermal": {"batteryStatus": "Charging", "freeSpace": 0.8118824362754822, "bat": 26700, "usbOnline": true, "batteryCurrent": -209000, "startedTs": 0, "mem": 396, "chargingError": false, "cpu2": 422, "cpu3": 419, "cpu0": 406, "cpu1": 406, "fanSpeed": 0, "batteryVoltage": 3878000, "chargingDisabled": false, "started": false, "batteryPercent": 43, "gpu": 356, "thermalStatus": "green"}, "logMonoTime": 4492912489895}, "health": null, "location": null, "ctx": {"version": "0.5.10-release", "dongle_id": "fbd011384db5e669", "dirty": true, "is_eon": true}}
+   running logcatd <Process(logcatd, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, started)>
+   running ui <Process(ui, started)>
+   running uploader <Process(uploader, started)>
+   running tombstoned <Process(tombstoned, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running athena <Process(athena, started)>
+upload_url v1.2 https://commaincoming.blob.core.windows.net/commaincoming/fbd011384db5e669/2019-04-17--11-38-50/14/rlog.bz2?sr=b&sp=cw&sig=0O/6LkkLG6Cetbkga/iO/AQ5iEm8%2BAewBt/%2Bhj/Ebgs%3D&sv=2018-03-28&se=2019-04-24T16%3A14%3A01Z {u'x-ms-blob-type': u'BlockBlob'}
+connected
+v1.2.0-EON-unknown-DEBUG should be v1.2.0-EON
+boardd.cc: starting boardd
+boardd.cc: waiting for params to set safety model
+boardd.cc: connected to board
+( logMonoTime = 4494435623020,
+  thermal = (
+    cpu0 = 441,
+    cpu1 = 422,
+    cpu2 = 438,
+    cpu3 = 416,
+    mem = 409,
+    gpu = 362,
+    bat = 26700,
+    freeSpace = 0.8118825,
+    batteryPercent = 43,
+    batteryStatus = "Charging",
+    fanSpeed = 0,
+    started = false,
+    usbOnline = true,
+    startedTs = 0,
+    thermalStatus = green,
+    batteryCurrent = -288000,
+    batteryVoltage = 3908000,
+    chargingError = false,
+    chargingDisabled = false ) )
+   running updated <Process(updated, started)>
+   running gpsd <Process(gpsd, started)>
+   running logcatd <Process(logcatd, started)>
+   running pandad <Process(pandad, started)>
+   running thermald <Process(thermald, started)>
+   running ui <Process(ui, started)>
+   running uploader <Process(uploader, started)>
+   running tombstoned <Process(tombstoned, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running athena <Process(athena, started)>
+( logMonoTime = 4494837552082,
+  thermal = (
+    cpu0 = 422,
+    cpu1 = 441,
+    cpu2 = 464,
+    cpu3 = 477,
+    mem = 416,
+    gpu = 362,
+    bat = 26700,
+    freeSpace = 0.81188244,
+    batteryPercent = 43,
+    batteryStatus = "Charging",
+    fanSpeed = 0,
+    started = true,
+    usbOnline = true,
+    startedTs = 4494949522759,
+    thermalStatus = green,
+    batteryCurrent = -225000,
+    batteryVoltage = 3895000,
+    chargingError = false,
+    chargingDisabled = false ) )
+starting python selfdrive.controls.controlsd
+starting python selfdrive.controls.plannerd
+starting process loggerd
+starting process sensord
+plannerd is waiting for CarParams
+starting python selfdrive.controls.radard
+starting python selfdrive.locationd.calibrationd
+starting python selfdrive.locationd.locationd_local
+pid 14370's current scheduling policy: SCHED_OTHER
+pid 14370's current scheduling priority: 0
+pid 14370's new scheduling policy: SCHED_FIFO
+pid 14370's new scheduling priority: 3
+waiting for fingerprint...
+starting process visiond
+starting process proclogd
+Parameter learner is waiting for CarParams
+pid 14377's current scheduling policy: SCHED_OTHER
+pid 14377's current scheduling priority: 0
+pid 14377's new scheduling policy: SCHED_FIFO
+pid 14377's new scheduling priority: 2
+starting python selfdrive.locationd.ubloxd
+radard is waiting for CarParams
+starting python selfdrive.mapd.mapd
+   running plannerd <Process(plannerd, started)>
+   running updated <Process(updated, started)>
+   running gpsd <Process(gpsd, started)>
+   running logcatd <Process(logcatd, started)>
+   running proclogd <Process(proclogd, started)>
+   running ubloxd <Process(ubloxd, started)>
+   running pandad <Process(pandad, started)>
+   running visiond <Process(visiond, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running sensord <Process(sensord, started)>
+   running thermald <Process(thermald, started)>
+fingerprinted #OLD_CARS!
+   running ui <Process(ui, started)>
+ECU Camera Simulated: True
+ECU DSU Simulated: True
+ECU APGS Simulated: False
+   running controlsd <Process(controlsd, started)>
+ECU Gas Interceptor: False
+   running uploader <Process(uploader, started)>
+   running loggerd <Process(loggerd, started)>
+   running mapd <Process(mapd, started)>
+   running tombstoned <Process(tombstoned, started)>
+   running locationd <Process(locationd, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running radard <Process(radard, started)>
+   running athena <Process(athena, started)>
+loggerd.cc: logging to /data/media/0/realdata/2019-04-17--12-14-02--0
+loggerd.cc: recording front camera
+vendor: 'QUALCOMM'
+platform version: 'OpenCL 2.0 QUALCOMM build: commit #6ff34ae changeid #I0ac3940325 Date: 09/23/16 Fri Local Branch:  Remote Branch: refs/tags/AU_LINUX_ANDROID_LA.HB.1.3.2.06.00.01.214.261'
+profile: 'FULL_PROFILE'
+extensions: ' '
+name: 'QUALCOMM Adreno(TM)'
+device version: 'OpenCL 2.0 Adreno(TM) 530'
+max work group size: 1024
+type = 0x0004 = CL_DEVICE_TYPE_GPU
+
+loaded model with size: 6354536
+crash
+Traceback (most recent call last):
+  File "./manager.py", line 169, in launcher
+    mod.main(gctx)
+  File "/data/openpilot/selfdrive/controls/controlsd.py", line 523, in main
+    controlsd_thread(gctx, 100)
+  File "/data/openpilot/selfdrive/controls/controlsd.py", line 420, in controlsd_thread
+    CI, CP = get_car(logcan, sendcan, 1.0 if passive else None)
+  File "/data/openpilot/selfdrive/car/car_helpers.py", line 108, in get_car
+    return interface_cls(params, sendcan), params
+  File "/data/openpilot/selfdrive/car/toyota/interface.py", line 32, in __init__
+    self.cp = get_can_parser(CP)
+  File "/data/openpilot/selfdrive/car/toyota/carstate.py", line 71, in get_can_parser
+    return CANParser(DBC[CP.carFingerprint]['pt'], signals, checks, 0)
+  File "/data/openpilot/selfdrive/can/parser.py", line 36, in __init__
+    s = (s[0], self.msg_name_to_addres[s[1]], s[2])
+KeyError: 'GAS_PEDAL'
+Process controlsd:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/usr/local/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "./manager.py", line 169, in launcher
+    mod.main(gctx)
+  File "/data/openpilot/selfdrive/controls/controlsd.py", line 523, in main
+    controlsd_thread(gctx, 100)
+  File "/data/openpilot/selfdrive/controls/controlsd.py", line 420, in controlsd_thread
+    CI, CP = get_car(logcan, sendcan, 1.0 if passive else None)
+  File "/data/openpilot/selfdrive/car/car_helpers.py", line 108, in get_car
+    return interface_cls(params, sendcan), params
+  File "/data/openpilot/selfdrive/car/toyota/interface.py", line 32, in __init__
+    self.cp = get_can_parser(CP)
+  File "/data/openpilot/selfdrive/car/toyota/carstate.py", line 71, in get_can_parser
+    return CANParser(DBC[CP.carFingerprint]['pt'], signals, checks, 0)
+  File "/data/openpilot/selfdrive/can/parser.py", line 36, in __init__
+    s = (s[0], self.msg_name_to_addres[s[1]], s[2])
+KeyError: 'GAS_PEDAL'
+( logMonoTime = 4495837884634,
+  thermal = (
+    cpu0 = 467,
+    cpu1 = 441,
+    cpu2 = 480,
+    cpu3 = 461,
+    mem = 432,
+    gpu = 369,
+    bat = 26700,
+    freeSpace = 0.81188065,
+    batteryPercent = 43,
+    batteryStatus = "Charging",
+    fanSpeed = 0,
+    started = true,
+    usbOnline = true,
+    startedTs = 4494949522759,
+    thermalStatus = green,
+    batteryCurrent = -86000,
+    batteryVoltage = 3890000,
+    chargingError = false,
+    chargingDisabled = false ) )
+   running plannerd <Process(plannerd, started)>
+   running updated <Process(updated, started)>
+   running gpsd <Process(gpsd, started)>
+   running logcatd <Process(logcatd, started)>
+   running proclogd <Process(proclogd, started)>
+   running ubloxd <Process(ubloxd, started)>
+   running pandad <Process(pandad, started)>
+   running visiond <Process(visiond, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running sensord <Process(sensord, started)>
+   running thermald <Process(thermald, started)>
+   running ui <Process(ui, started)>
+   running controlsd <Process(controlsd, stopped[1])>
+   running uploader <Process(uploader, started)>
+   running loggerd <Process(loggerd, started)>
+   running mapd <Process(mapd, started)>
+   running tombstoned <Process(tombstoned, started)>
+   running locationd <Process(locationd, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running radard <Process(radard, started)>
+   running athena <Process(athena, started)>
+( logMonoTime = 4496838373123,
+  thermal = (
+    cpu0 = 432,
+    cpu1 = 429,
+    cpu2 = 435,
+    cpu3 = 503,
+    mem = 429,
+    gpu = 375,
+    bat = 26700,
+    freeSpace = 0.81187963,
+    batteryPercent = 43,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 4494949522759,
+    thermalStatus = green,
+    batteryCurrent = -109000,
+    batteryVoltage = 3877000,
+    chargingError = false,
+    chargingDisabled = false ) )
+   running plannerd <Process(plannerd, started)>
+   running updated <Process(updated, started)>
+   running gpsd <Process(gpsd, started)>
+   running logcatd <Process(logcatd, started)>
+   running proclogd <Process(proclogd, started)>
+   running ubloxd <Process(ubloxd, started)>
+   running pandad <Process(pandad, started)>
+   running visiond <Process(visiond, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running sensord <Process(sensord, started)>
+   running thermald <Process(thermald, started)>
+   running ui <Process(ui, started)>
+   running controlsd <Process(controlsd, stopped[1])>
+   running uploader <Process(uploader, started)>
+   running loggerd <Process(loggerd, started)>
+   running mapd <Process(mapd, started)>
+   running tombstoned <Process(tombstoned, started)>
+   running locationd <Process(locationd, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running radard <Process(radard, started)>
+   running athena <Process(athena, started)>
+Result: Parcel(00000000    '....')
+model: vision_lambda/div:0 -> outputs/concat:0
+input product is 76800
+adding recurrent: rnn_state:0
+loaded model with size: 427951
+model: lambda/div:0 -> descs/BiasAdd:0
+input product is 76800
+( logMonoTime = 4497838852810,
+  thermal = (
+    cpu0 = 425,
+    cpu1 = 425,
+    cpu2 = 435,
+    cpu3 = 448,
+    mem = 422,
+    gpu = 378,
+    bat = 26800,
+    freeSpace = 0.81187761,
+    batteryPercent = 43,
+    batteryStatus = "Charging",
+    fanSpeed = 16384,
+    started = true,
+    usbOnline = true,
+    startedTs = 4494949522759,
+    thermalStatus = green,
+    batteryCurrent = -240000,
+    batteryVoltage = 3885000,
+    chargingError = false,
+    chargingDisabled = false ) )
+   running plannerd <Process(plannerd, started)>
+   running updated <Process(updated, started)>
+   running gpsd <Process(gpsd, started)>
+   running logcatd <Process(logcatd, started)>
+   running proclogd <Process(proclogd, started)>
+   running ubloxd <Process(ubloxd, started)>
+   running pandad <Process(pandad, started)>
+   running visiond <Process(visiond, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running sensord <Process(sensord, started)>
+   running thermald <Process(thermald, started)>
+   running ui <Process(ui, started)>
+   running controlsd <Process(controlsd, stopped[1])>
+   running uploader <Process(uploader, started)>
+   running loggerd <Process(loggerd, started)>
+   running mapd <Process(mapd, started)>
+   running tombstoned <Process(tombstoned, started)>
+   running locationd <Process(locationd, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running radard <Process(radard, started)>
+   running athena <Process(athena, started)>
+loaded model with size: 5303349
+ui.c: vision_subscribe type:0
+ui.c: vision_subscribe type:1
+model: lambda/div:0 -> dense_2/BiasAdd:0
+input product is 212800
+( logMonoTime = 4498839105674,
+  thermal = (
+    cpu0 = 409,
+    cpu1 = 409,
+    cpu2 = 416,
+    cpu3 = 422,
+    mem = 412,
+    gpu = 394,
+    bat = 26800,
+    freeSpace = 0.81187153,
+    batteryPercent = 43,
+    batteryStatus = "Charging",
+    fanSpeed = 0,
+    started = true,
+    usbOnline = true,
+    startedTs = 4494949522759,
+    thermalStatus = green,
+    batteryCurrent = -173000,
+    batteryVoltage = 3896000,
+    chargingError = false,
+    chargingDisabled = false ) )
+   running plannerd <Process(plannerd, started)>
+   running updated <Process(updated, started)>
+   running gpsd <Process(gpsd, started)>
+   running logcatd <Process(logcatd, started)>
+   running proclogd <Process(proclogd, started)>
+   running ubloxd <Process(ubloxd, started)>
+   running pandad <Process(pandad, started)>
+   running visiond <Process(visiond, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running sensord <Process(sensord, started)>
+   running thermald <Process(thermald, started)>
+   running ui <Process(ui, started)>
+   running controlsd <Process(controlsd, stopped[1])>
+   running uploader <Process(uploader, started)>
+   running loggerd <Process(loggerd, started)>
+   running mapd <Process(mapd, started)>
+   running tombstoned <Process(tombstoned, started)>
+   running locationd <Process(locationd, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running radard <Process(radard, started)>
+   running athena <Process(athena, started)>
+   running plannerd <Process(plannerd, started)>
+( logMonoTime = 4499839585361,
+  thermal = (
+    cpu0 = 412,
+    cpu1 = 406,
+    cpu2 = 412,
+    cpu3 = 412,
+    mem = 412,
+    gpu = 414,
+    bat = 26800,
+    freeSpace = 0.81186467,
+    batteryPercent = 43,
+    batteryStatus = "Charging",
+    fanSpeed = 0,
+    started = true,
+    usbOnline = true,
+    startedTs = 4494949522759,
+    thermalStatus = green,
+    batteryCurrent = -3000,
+    batteryVoltage = 3870000,
+    chargingError = false,
+    chargingDisabled = false ) )
+   running updated <Process(updated, started)>
+   running gpsd <Process(gpsd, started)>
+   running logcatd <Process(logcatd, started)>
+   running proclogd <Process(proclogd, started)>
+   running ubloxd <Process(ubloxd, started)>
+   running pandad <Process(pandad, started)>
+   running visiond <Process(visiond, started)>
+   running calibrationd <Process(calibrationd, started)>
+   running sensord <Process(sensord, started)>
+   running thermald <Process(thermald, started)>
+   running ui <Process(ui, started)>
+   running controlsd <Process(controlsd, stopped[1])>
+   running uploader <Process(uploader, started)>
+   running loggerd <Process(loggerd, started)>
+   running mapd <Process(mapd, started)>
+   running tombstoned <Process(tombstoned, started)>
+   running locationd <Process(locationd, started)>
+   running logmessaged <Process(logmessaged, started)>
+   running radard <Process(radard, started)>
+   running athena <Process(athena, started)>
+caught ctrl-c None None
+running pm disable ai.comma.plus.offroad
+running pm disable ai.comma.plus.frame
+killing plannerd
+plannerd is dead with 1
+killing updated
+( logMonoTime = 4500839633903,
+  thermal = (
+    cpu0 = 438,
+    cpu1 = 432,
+    cpu2 = 445,
+    cpu3 = 448,
+    mem = 432,
+    gpu = 417,
+    bat = 26800,
+    freeSpace = 0.8118571,
+    batteryPercent = 43,
+    batteryStatus = "Charging",
+    fanSpeed = 0,
+    started = true,
+    usbOnline = true,
+    startedTs = 4494949522759,
+    thermalStatus = green,
+    batteryCurrent = -3000,
+    batteryVoltage = 3870000,
+    chargingError = false,
+    chargingDisabled = false ) )
+updated is dead with 1
+killing gpsd
+gpsd is dead with 0
+killing logcatd
+logcatd is dead with -15
+killing proclogd
+proclogd is dead with -15
+killing ubloxd
+ubloxd is dead with 1
+killing pandad
+pandad is dead with -15
+killing visiond
+camera_qcom.c: poll failed (-1)
+vipc_recv err: Connection reset by peer
+ui.c: vision disconnected
+E: 19-04-17 12:14:09 dangling 'PUSH' socket created at camera_qcom.c:126
+E: 19-04-17 12:14:09 dangling 'PUSH' socket created at camera_qcom.c:126
+E: 19-04-17 12:14:09 dangling 'PUB' socket created at visiond.cc:1422
+E: 19-04-17 12:14:09 dangling 'SUB' socket created at camera_qcom.c:2081
+E: 19-04-17 12:14:09 dangling sockets: cannot terminate ZMQ safely
+visiond is dead with 0
+killing calibrationd
+calibrationd is dead with 1
+killing sensord
+sensord is dead with 0
+killing thermald
+thermald is dead with 1
+killing ui
+ui is dead with -15
+killing controlsd
+controlsd is dead with 1
+killing uploader
+uploader is dead with 1
+killing loggerd
+loggerd.cc: joining threads
+loggerd.cc: encoder joined
+loggerd is dead with 0
+killing mapd
+mapd is dead with 1
+killing tombstoned
+tombstoned is dead with 1
+killing locationd
+locationd is dead with 1
+killing logmessaged
+logmessaged is dead with 1
+killing radard
+radard is dead with 1
+killing athena
+athena is dead with 0
+everything is dead
+Traceback (most recent call last):
+  File "./manager.py", line 535, in <module>
+    main()
+  File "./manager.py", line 524, in main
+    manager_thread()
+  File "./manager.py", line 334, in manager_thread
+    msg = messaging.recv_sock(thermal_sock, wait=True)
+  File "/data/openpilot/selfdrive/messaging.py", line 47, in recv_sock
+    dat = sock.recv()
+  File "zmq/backend/cython/socket.pyx", line 693, in zmq.backend.cython.socket.Socket.recv (zmq/backend/cython/socket.c:7291)
+  File "zmq/backend/cython/socket.pyx", line 727, in zmq.backend.cython.socket.Socket.recv (zmq/backend/cython/socket.c:7089)
+  File "zmq/backend/cython/socket.pyx", line 145, in zmq.backend.cython.socket._recv_copy (zmq/backend/cython/socket.c:2041)
+  File "zmq/backend/cython/checkrc.pxd", line 12, in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:7530)
+KeyboardInterrupt
