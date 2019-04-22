@@ -2,7 +2,7 @@ import numpy as np
 from common.kalman.simple_kalman import KF1D
 from selfdrive.can.parser import CANParser, CANDefine
 from selfdrive.config import Conversions as CV
-from selfdrive.car.toyota.values import CAR, DBC, STEER_THRESHOLD
+from selfdrive.car.toyota.values import CAR, DBC, STEER_THRESHOLD, NO_DSU_CAR
 
 def parse_gear_shifter(gear, vals):
 
@@ -103,6 +103,11 @@ class CarState(object):
                          K=np.matrix([[0.12287673], [0.29666309]]))
     self.v_ego = 0.0
 
+    #Camry Torque sensor steering
+    self.old_steer_prev = 0.0
+    self.offset_prev = 0.0
+
+
   def update(self, cp, cp_cam):
     # copy can_valid
     self.can_valid = cp.can_valid
@@ -141,7 +146,21 @@ class CarState(object):
     self.a_ego = float(v_ego_x[1])
     self.standstill = not v_wheel > 0.001
 
-    self.angle_steers = cp.vl["STEER_ANGLE_SENSOR"]['STEER_ANGLE'] + cp.vl["STEER_ANGLE_SENSOR"]['STEER_FRACTION']
+    if self.car_fingerprint in NO_DSU_CAR:
+        
+      #steer angle offset and steer angle from torque sensor
+      self.old_steer  =self.angle_steers
+      self.new_steer = cp.vl["STEER_TORQUE_SENSOR"]['STEER_ANGLE']
+
+      if (frame < 1000) and (self.old_steer == self.old_steer_prev):
+        self.offset = self.new_steer - self.old_steer
+      else:
+        self.offset = self.offset_prev
+
+      self.angle_steers = self.new_steer - self.offset
+      self.old_steer_prev = self.old_steer
+      self.offset_prev = self.offset
+
     self.angle_steers_rate = cp.vl["STEER_ANGLE_SENSOR"]['STEER_RATE']
     can_gear = int(cp.vl["GEAR_PACKET"]['GEAR'])
     self.gear_shifter = parse_gear_shifter(can_gear, self.shifter_values)
