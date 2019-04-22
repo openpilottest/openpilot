@@ -63,6 +63,9 @@ def get_can_parser(CP):
   if CP.carFingerprint == CAR.PRIUS:
     signals += [("STATE", "AUTOPARK_STATUS", 0)]
 
+  if CP.carFingerprint in NO_DSU_CAR:
+    signals += [("STEER_ANGLE", "STEER_TORQUE_SENSOR", 0)]
+
   # add gas interceptor reading if we are using it
   if CP.enableGasInterceptor:
       signals.append(("INTERCEPTOR_GAS", "GAS_SENSOR", 0))
@@ -147,7 +150,7 @@ class CarState(object):
     self.standstill = not v_wheel > 0.001
 
     if self.car_fingerprint in NO_DSU_CAR:
-        
+
       #steer angle offset and steer angle from torque sensor
       self.old_steer  =self.angle_steers
       self.new_steer = cp.vl["STEER_TORQUE_SENSOR"]['STEER_ANGLE']
