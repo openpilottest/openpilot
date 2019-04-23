@@ -107,8 +107,8 @@ class CarState(object):
     self.v_ego = 0.0
 
     #Camry Torque sensor steering
-    self.old_steer_prev = 0.0
-    self.offset_prev = 0.0
+    self.old_steer_prev = 0
+    self.offset_prev = 0
 
 
   def update(self, cp, cp_cam):
@@ -149,13 +149,16 @@ class CarState(object):
     self.a_ego = float(v_ego_x[1])
     self.standstill = not v_wheel > 0.001
 
+    self.angle_steers = cp.vl["STEER_ANGLE_SENSOR"]['STEER_ANGLE'] + cp.vl["STEER_ANGLE_SENSOR"]['STEER_FRACTION']
+    self.angle_steers_rate = cp.vl["STEER_ANGLE_SENSOR"]['STEER_RATE']
+
+    #steer angle offset and steer angle from torque sensor
     if self.car_fingerprint in NO_DSU_CAR:
 
-      #steer angle offset and steer angle from torque sensor
-      self.old_steer  =self.angle_steers
+      self.old_steer = self.angle_steers
       self.new_steer = cp.vl["STEER_TORQUE_SENSOR"]['STEER_ANGLE']
 
-      if (frame < 1000) and (self.old_steer == self.old_steer_prev):
+      if (frame < 500) and (self.old_steer == self.old_steer_prev):
         self.offset = self.new_steer - self.old_steer
       else:
         self.offset = self.offset_prev
@@ -164,7 +167,6 @@ class CarState(object):
       self.old_steer_prev = self.old_steer
       self.offset_prev = self.offset
 
-    self.angle_steers_rate = cp.vl["STEER_ANGLE_SENSOR"]['STEER_RATE']
     can_gear = int(cp.vl["GEAR_PACKET"]['GEAR'])
     self.gear_shifter = parse_gear_shifter(can_gear, self.shifter_values)
     self.main_on = cp.vl["PCM_CRUISE_2"]['MAIN_ON']
