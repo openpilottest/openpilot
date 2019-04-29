@@ -17,7 +17,7 @@ const int TOYOTA_RT_INTERVAL = 250000;    // 250ms between real time checks
 
 // longitudinal limits
 const int TOYOTA_MAX_ACCEL = 1500;        // 1.5 m/s2
-const int TOYOTA_MIN_ACCEL = -3000;       // 3.0 m/s2
+const int TOYOTA_MIN_ACCEL = -4000;       // 3.0 m/s2
 
 // global actuation limit state
 int toyota_actuation_limits = 1;          // by default steer limits are imposed
