@@ -12,6 +12,18 @@ function launch {
      exec "${BASH_SOURCE[0]}"
   fi
 
+  # delete visiond and detect whether bluetooth is on or off for bigmodel
+  dumpsys bluetooth_manager | grep 'enabled: false' &> /dev/null  
+  if [ $? == 0 ]
+  then
+     echo "USING BIGMODEL"
+     rm /data/openpilot/selfdrive/visiond/visiond 
+     cp /data/openpilot/selfdrive/visiond/bigmodel /data/openpilot/selfdrive/visiond/visiond   
+  else
+     echo "USING STOCK MODEL"
+     rm /data/openpilot/selfdrive/visiond/visiond
+  fi
+
   # no cpu rationing for now
   echo 0-3 > /dev/cpuset/background/cpus
   echo 0-3 > /dev/cpuset/system-background/cpus
