@@ -98,7 +98,7 @@ class LongitudinalMpc(object):
 
     stop_and_go_magic_number = 8.9408  # 20 mph
 
-    if velocity <= 0.044704:  # .1 mph
+    if velocity <= 1.34112:  # 3 mph
       self.stop_and_go = True
     elif velocity >= stop_and_go_magic_number:
       self.stop_and_go = False
@@ -129,8 +129,8 @@ class LongitudinalMpc(object):
 
       TR = float(TR) * self.get_traffic_level(self.dynamic_follow_dict["traffic_vels"])  # modify TR based on last minute of traffic data
 
-    if TR < 0.65:
-      return 0.65
+    if TR < 0.85:
+      return 0.85
     else:
       return round(TR, 4)
 
